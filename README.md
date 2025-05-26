@@ -9,8 +9,7 @@ This repository demonstrates two microservices communication patterns using Spri
 
 ## 🏗️ Project Structure
 
-### will attached as png.
-
+![orchestration-project-structure](https://github.com/user-attachments/assets/5077c86a-7d38-4b9c-93ad-602093c138b8)
 
 
 ---
