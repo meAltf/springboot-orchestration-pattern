@@ -9,17 +9,7 @@ This repository demonstrates two microservices communication patterns using Spri
 
 ## 🏗️ Project Structure
 
-├── order-orchestration/ # REST-based centralized orchestration
-│ ├── order-service/
-│ ├── inventory-service/
-│ ├── payment-service/
-│ └── shipping-service/
-├── order-choreography/ # Kafka-based event-driven choreography
-│ ├── common/ # Shared DTOs
-│ ├── order-service/
-│ ├── inventory-service/
-│ ├── payment-service/
-│ └── shipping-service/
+### will attached as png.
 
 
 
