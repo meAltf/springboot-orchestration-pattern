@@ -1,0 +1,12 @@
+package com.learn.shipping.choreography_shipping.DTO;
+
+import lombok.Data;
+
+@Data
+public class OrderEventDTO {
+    private String orderId;
+    private String productId;
+    private double amount;
+    private String status; // order-created, inventory-checked, payment-completed
+
+}
