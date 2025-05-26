@@ -47,3 +47,13 @@ cd order-service && mvn spring-boot:run
 cd inventory-service && mvn spring-boot:run
 cd payment-service && mvn spring-boot:run
 cd shipping-service && mvn spring-boot:run
+
+
+``` kafka setup
+
+docker run -d --name zookeeper -p 2181:2181 zookeeper
+docker run -d --name kafka -p 9092:9092 --link zookeeper \
+    -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 \
+    -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \
+    confluentinc/cp-kafka
+
