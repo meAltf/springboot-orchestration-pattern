@@ -50,6 +50,15 @@ cd shipping-service && mvn spring-boot:run
 
 ```
 
+## 💃 Choreography Pattern
+
+In this approach, services listen to events and react accordingly:
+
+1. order-service emits "order-created" event
+2. inventory-service listens → emits "inventory-checked"
+3. payment-service listens → emits "payment-completed"
+4. shipping-service listens and ships
+
 ```kafka setup
 # ▶️ Prerequisite: Kafka | manually run
 docker run -d --name zookeeper -p 2181:2181 zookeeper
