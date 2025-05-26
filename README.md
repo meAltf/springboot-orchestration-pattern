@@ -11,6 +11,9 @@ This repository demonstrates two microservices communication patterns using Spri
 
 ![orchestration-project-structure](https://github.com/user-attachments/assets/5077c86a-7d38-4b9c-93ad-602093c138b8)
 
+![choreography-project-structure](https://github.com/user-attachments/assets/47f83513-65ac-418d-b1f0-5f586edd0ad8)
+
+
 
 ---
 
